@@ -31,6 +31,10 @@ int verity(int dni)
   int res; 
   if(dni >= 10000000 && dni <= 99999999)
   {
+    res = 1;
+  }
+  else
+  {
     
   }
 }
