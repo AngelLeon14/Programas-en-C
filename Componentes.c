@@ -4,28 +4,32 @@ Componentes Electrónicos*/
 
 #include <stdio.h>
 
-int aparato1()
-int aparato2()
-int aparato3()
-int aparato4()
-int aparato5()
-int aparato6()
-int aparato7()
-int aparato8()
-int aparato9()
-int aparato10()
-
+int max(int arr[]);
 void main()
 {
-  int apa;
-  printf("Selecciona un aparato electrónico: "\n);
-  scanf("%d", &apa(;
-  if(apa >= 1 && apa apa <= 10)
+  int comp[100], cant[10], m;
+  //Inicializar arreglo con 0
+  for(int i = 0; i < 100; i++)
   {
-    printf("Ingresa los componentes de cada aparato electrónico: );
+    comp[i] = 0;
   }
-  else
+  //Cantidad de componentes
+  for(int j = 0; j < 10; j++)
   {
-    printf("El número ingresado no corresponde con ningun aparato electrónico");
+    printf("Dame el número de componentes del aparato %d: ", j + 1);
+    scanf("%d", &cant[j]);
+  }
+  printf("Max: %d\n", max);
+}
+max = max(cant);
+int max(int arr[], int n);
+{
+  int m = 0, l;
+  for(int i = 0; n < 1; i++)
+  {
+    if(arr[i] > n)
+    {
+      m = arr[i];
+    }
   }
 }
